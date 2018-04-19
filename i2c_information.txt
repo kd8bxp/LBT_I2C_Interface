@@ -1,0 +1,14 @@
+//Command Registers
+0x00 Status followed by a status register
+0x01 say plus a byte
+0x02 sayNumber plus a long byte (needs to be local control)
+0x03 sayHours plus long byte
+0x04 sayMinutes plus long byte
+0x05 setAMPM bool true/false
+0x06 setDelay plus int waittime (needs to be local control?) (?)
+
+//Status Registers
+0x01 AMPM set
+0x02 Speaking
+0x03 Delay Time
+
